@@ -1,9 +1,10 @@
 import style from './Header.module.css'
+import globalStyle from './../index.css'
 
 function Header() {
     return (
         <header className={style.header }>
-            <div className={`${style.header__content} ${style.container}`}>
+            <div className={`${style.header__content} ${globalStyle.container}`}>
                 <h2 className={style.header__title}>
                     &lt; IsRael / &gt;
                 </h2>
