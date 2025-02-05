@@ -16,6 +16,7 @@
 
 .header__title {
     font-size: 1.7rem;
+    color: white;
 }
 
 .header__menu{}
@@ -30,7 +31,7 @@
 }
 
 .header__link{
-    color:black;
+    color:white;
     text-decoration: none;
     cursor: pointer;
 }
