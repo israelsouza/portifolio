@@ -1,8 +1,9 @@
 import style from './Header.module.css'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
     return (
-        <header className={style.header }>
+        <header className={style.header}>
             <div className={`${style.header__content}`}>
                 <h2 className={style.header__title}>
                     &lt; IsRael / &gt;
@@ -11,19 +12,31 @@ function Header() {
                 <nav className={style.header__menu}>
                     <ul className={style.header__list}>
                         <li className={style.header__listItem}>
-                            <a href="" target="_self" className={style.header__link}>
+
+                            <NavLink to="/" end className={style.header__link}>
+
                                 Inicio
-                            </a>
+
+                            </NavLink>
+
                         </li>
                         <li className={style.header__listItem}>
-                            <a href="" target="_self" className={style.header__link}>
+
+                            <NavLink to="/sobre" end className={style.header__link}>
+
                                 Sobre
-                            </a>
+
+                            </NavLink>
+
                         </li>
                         <li className={style.header__listItem}>
-                            <a href="" target="_self" className={style.header__link}>
+
+                            <NavLink to="/projetos" end className={style.header__link}>
+
                                 Projetos
-                            </a>
+
+                            </NavLink>
+
                         </li>
                     </ul>
                 </nav>
