@@ -1,12 +1,11 @@
 import style from './Apresentacao.module.css'
-import globalStyle from './../index.css'
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 function Apresentacao() {
     return (
         <div className={style.apresentacao}>
-            <div className={`${style.apresentacao__content} ${globalStyle.container}`}>
+            <div className={`${style.apresentacao__content}`}>
                 <div className={style.apresentacao__text}>
                     <p>Olá, visitante!!</p>
                     <h1>Desenvolvedor Front-End</h1>
