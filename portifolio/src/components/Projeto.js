@@ -9,6 +9,7 @@ function Projeto() {
             <div className={style.projeto__content}>
                 <BoxDefault
                     print={images.econs}
+                    alt={'Uma captura de tela da tela inicial do site ECONS'}
                     title={"ECONS"}
                     desc={"Site informativo realizado em equipe como projeto acadêmico do primeiro semestre"}
                     tech={

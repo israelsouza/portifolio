@@ -12,10 +12,10 @@ function Apresentacao() {
                     <p>Estudante da Fatec Zona Leste</p>
                 </div>
                 <div className={style.apresentacao__icon}>
-                    <a href="https://github.com/israelsouza" target="_blank" className={style.apresentacao__iconLink}>
+                    <a href="https://github.com/israelsouza" target="_blank" rel="noreferrer noopener" className={style.apresentacao__iconLink}>
                         <FaGithubSquare />
                     </a>
-                    <a href="https://br.linkedin.com/in/israel-de-souza-lima-7a2a6320a" target="_blank" className={style.apresentacao__iconLink}>
+                    <a href="https://br.linkedin.com/in/israel-de-souza-lima-7a2a6320a" target="_blank" rel="noreferrer noopener" className={style.apresentacao__iconLink}>
                         <FaLinkedin />
                     </a>
                 </div>
