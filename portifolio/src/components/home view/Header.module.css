@@ -14,8 +14,6 @@
     color: white;
 }
 
-.header__menu{}
-
 .header__list {
     display: flex;
     list-style: none;

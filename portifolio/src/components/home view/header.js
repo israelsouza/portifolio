@@ -9,7 +9,7 @@ function Header() {
                     &lt; IsRael / &gt;
                 </h2>
 
-                <nav className={style.header__menu}>
+                <nav>
                     <ul className={style.header__list}>
                         <li className={style.header__listItem}>
 
