@@ -2,7 +2,7 @@
   "name": "portifolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://israelsouza.github.io/portifolio/portifolio",
+  "homepage": "https://israelsouza.github.io/portifolio",
   "dependencies": {
     "cra-template": "1.2.0",
     "gh-pages": "^6.3.0",
