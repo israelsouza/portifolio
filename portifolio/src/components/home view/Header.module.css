@@ -1,0 +1,30 @@
+.header{
+    padding: 10px 2%;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__title {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__listItem {
+    margin-left: 75px;
+}
+
+.header__link{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}

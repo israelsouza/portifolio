@@ -1,0 +1,116 @@
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#fundo-principal{
+    background-image: url('../img/laptop.jpg');
+    width: 100%;
+    height: 100dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* CABEÇALHO */
+
+#header{
+    margin-top: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+#header .header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#header #name{
+    font-size: 2.1rem;
+}
+
+#nav-bar #list{
+    display: flex;
+}
+
+#list .item-list{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 1.1em;
+}
+
+#box-blur{
+    content: '';
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.696);
+    backdrop-filter: blur(2px);
+}
+
+/* MAIN */
+
+.main-content{
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+    text-align: center;
+    margin-top: 180px;
+    background-color: rgba(255, 255, 255, 0.546);
+    border-radius: 10px;
+}
+
+.main-content h1{
+    font-size: 2.7rem;
+    margin: 5px;
+}
+
+.main-content p{
+    font-size: 1.1rem;
+}
+
+.medias{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.medias svg{
+    width: 40px;
+    height: auto;
+}
+
+/* INFORMACOES */
+
+#informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: saddlebrown;
+}
+
+#informacoes-content {
+
+} 
